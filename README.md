@@ -1,2 +1,2 @@
-# repositorio-inicial
+# Repositório Inicial
 Criando meu primeiro repositório.
