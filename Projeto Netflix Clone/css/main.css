@@ -13,15 +13,16 @@
 
 body{
    background: var(--preto);
-   font-family: 'Times New Roman', Times, serif;
+   font-family: 'Times New Romana', Times, serif;
    color: white;
 }
 
 header .container{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
+    font-family:Arial, Helvetica, sans-serif;
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:space-between;
 }
 
 header .logo{
@@ -62,7 +63,7 @@ header nav a:hover{
 
     .titulo{
         margin-top: 15%;
-        font-size: 50px;
+        font-size: 40px;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     }
     
@@ -86,4 +87,19 @@ header nav a:hover{
 
     .botao i{
         margin-right: 8px;
+    }
+
+    .container{
+        margin-left: 15px;
+    }
+
+    .filme-principal .container{
+        width: 70%;
+    }
+
+    .box-filmes{
+        margin-top: 10px;
+        height: 100%;
+        width: 100%;
+        display: block;
     }
